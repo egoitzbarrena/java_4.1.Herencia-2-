@@ -4,6 +4,13 @@ public class Informatico extends Personal {
 		
 		private Integer id_informatico;
 
+		public Informatico() {
+			super ();
+	
+		}
+
+		
+
 		public Integer getId_informatico() {
 			return id_informatico;
 		}

@@ -1,6 +1,10 @@
 
 public class Comercial extends Personal {
 	
+	public Comercial() {
+		super();
+	}
+
 	private Integer id_comercial;
 
 	public Integer getId_comercial() {

@@ -1,6 +1,10 @@
 
 public class Administrador extends Personal {
 
+	public Administrador() {
+		super();
+	}
+
 	private Integer id_admin;
 
 	public Integer getId_admin() {

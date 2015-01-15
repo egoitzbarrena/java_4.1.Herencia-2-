@@ -9,6 +9,9 @@ public class Personal {
 	
 	
 	
+	public Personal (){
+	}
+	
 	public Integer getIdpersonal() {
 		return idpersonal;
 	}

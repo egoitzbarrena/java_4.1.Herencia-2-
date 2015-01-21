@@ -45,21 +45,22 @@ public class Main {
 		System.out.println("EDAD:" + informatico.getEdad());
 		System.out.println("ID INFORMATICO:" + informatico.getId_informatico());
 		informatico.trabajar();
-		/*System.out.println("\nDATOS DEL ADMINISTRADOR:");
+		System.out.println("\nDATOS DEL ADMINISTRADOR:");
 		System.out.println("ID PERSONAL:" + administrador.getIdpersonal());
 		System.out.println("NOMBRE:" + administrador.getNombre());
 		System.out.println("APELLIDO:" + administrador.getApellido());
 		System.out.println("CORREO:" + administrador.getCorreo());
 		System.out.println("EDAD:" + administrador.getEdad());
 		System.out.println("ID INFORMATICO:" + administrador.getIdpersonal());
-		
+		administrador.trabajar();
 		System.out.println("\nDATOS DEL COMERCIAL:");
 		System.out.println("ID PERSONAL:" + comercial.getIdpersonal());
 		System.out.println("NOMBRE:" + comercial.getNombre());
 		System.out.println("APELLIDO:" + comercial.getApellido());
 		System.out.println("CORREO:" + comercial.getCorreo());
 		System.out.println("EDAD:" + comercial.getEdad());
-		System.out.println("ID INFORMATICO:" + comercial.getId_comercial());*/
+		System.out.println("ID INFORMATICO:" + comercial.getId_comercial());
+		comercial.trabajar();
 		
 		Hashtable<String,String> listapersonal = new Hashtable<String,String>();
 		

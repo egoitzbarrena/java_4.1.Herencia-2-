@@ -15,5 +15,8 @@ public class Administrador extends Personal {
 		this.id_admin = id_admin;
 	}
 	
-	
+	public void trabajar(){
+		super.trabajar();
+		System.out.println("el administrador trabaja hoy");
+	}
 }

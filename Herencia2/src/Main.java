@@ -1,3 +1,4 @@
+import java.util.Hashtable;
 
 public class Main {
 
@@ -34,14 +35,17 @@ public class Main {
 		
 		System.out.println("Datos del personal");
 		System.out.println("\nDATOS DEL INFORMATICO:");
-		System.out.println("ID PERSONAL:" + informatico.getIdpersonal());
+		
+		Integer idper = informatico.getIdpersonal();
+		System.out.println("ID PERSONAL:" + idper);
+		
 		System.out.println("NOMBRE:" + informatico.getNombre());
 		System.out.println("APELLIDO:" + informatico.getApellido());
 		System.out.println("CORREO:" + informatico.getCorreo());
 		System.out.println("EDAD:" + informatico.getEdad());
 		System.out.println("ID INFORMATICO:" + informatico.getId_informatico());
-		
-		System.out.println("\nDATOS DEL ADMINISTRADOR:");
+		informatico.trabajar();
+		/*System.out.println("\nDATOS DEL ADMINISTRADOR:");
 		System.out.println("ID PERSONAL:" + administrador.getIdpersonal());
 		System.out.println("NOMBRE:" + administrador.getNombre());
 		System.out.println("APELLIDO:" + administrador.getApellido());
@@ -55,13 +59,15 @@ public class Main {
 		System.out.println("APELLIDO:" + comercial.getApellido());
 		System.out.println("CORREO:" + comercial.getCorreo());
 		System.out.println("EDAD:" + comercial.getEdad());
-		System.out.println("ID INFORMATICO:" + comercial.getId_comercial());
+		System.out.println("ID INFORMATICO:" + comercial.getId_comercial());*/
 		
+		Hashtable<String,String> listapersonal = new Hashtable<String,String>();
 		
+		listapersonal.put("per_1", "idper");
 		
 		
 		
 
 	}
-
+	
 }

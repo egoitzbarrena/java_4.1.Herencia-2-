@@ -8,6 +8,10 @@ public class Personal {
 	private Integer edad;
 	
 	
+	public void trabajar(){
+		System.out.println("el trabajador trabaja");
+	}
+	
 	
 	public Personal (){
 	}

@@ -8,8 +8,11 @@ public class Informatico extends Personal {
 			super ();
 	
 		}
-
 		
+		public void trabajar(){
+			super.trabajar();
+			System.out.println("el informatico trabaja hoy");
+		}
 
 		public Integer getId_informatico() {
 			return id_informatico;

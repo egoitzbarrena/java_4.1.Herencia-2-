@@ -16,5 +16,8 @@ public class Comercial extends Personal {
 	}
 	
 	
-
+	public void trabajar(){
+		super.trabajar();
+		System.out.println("el comercial trabaja hoy");
+	}
 }

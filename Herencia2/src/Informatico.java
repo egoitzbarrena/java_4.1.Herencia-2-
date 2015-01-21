@@ -9,7 +9,7 @@ public class Informatico extends Personal {
 	
 		}
 		
-		public void trabajar(){
+		final public void trabajar(){
 			super.trabajar();
 			System.out.println("el informatico trabaja hoy");
 		}
